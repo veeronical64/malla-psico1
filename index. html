@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Psicología UBA - Plan 1985</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #333;
+      color: white;
+    }
+    td.final, td.fecha {
+      background-color: #ffffcc;
+    }
+    .correlativas {
+      font-size: 0.85em;
+      color: #666;
+    }
+    input[type="text"] {
+      width: 100%;
+      border: none;
+      background: transparent;
+      text-align: center;
+      font-weight: bold;
+    }
+    .bloque {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Interactiva - Psicología UBA</h1>
+  <h2>Plan 1985</h2>
+
+  <div class="bloque">
+    <h2>Ciclo Introductorio</h2>
+    <table>
+      <tr>
+        <th>Materia</th><th>Correlativas</th><th>Nota Final</th><th>Fecha de Cursada</th>
+      </tr>
+      <tr>
+        <td>Psicología General</td>
+        <td class="correlativas">—</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Epistemología de la Psicología</td>
+        <td class="correlativas">—</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Estadística</td>
+        <td class="correlativas">—</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="bloque">
+    <h2>Ciclo Profesional</h2>
+    <table>
+      <tr>
+        <th>Materia</th><th>Correlativas</th><th>Nota Final</th><th>Fecha de Cursada</th>
+      </tr>
+      <tr>
+        <td>Psicoanálisis: Freud</td>
+        <td class="correlativas">Psicología General</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Psicología, Ética y DDHH</td>
+        <td class="correlativas">—</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Psicoanálisis: Klein y Winnicott</td>
+        <td class="correlativas">Psicoanálisis: Freud</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Psicología Social</td>
+        <td class="correlativas">Psicología General</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Psicología del Desarrollo I</td>
+        <td class="correlativas">Psicología General</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Psicología del Desarrollo II</td>
+        <td class="correlativas">Psicología del Desarrollo I</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Psicopatología I</td>
+        <td class="correlativas">Psicoanálisis: Freud</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Psicopatología II</td>
+        <td class="correlativas">Psicopatología I</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="bloque">
+    <h2>Orientaciones / Tramos Finales</h2>
+    <table>
+      <tr>
+        <th>Materia</th><th>Correlativas</th><th>Nota Final</th><th>Fecha de Cursada</th>
+      </tr>
+      <tr>
+        <td>Teoría y Técnica de Exploración y Diagnóstico</td>
+        <td class="correlativas">Psicopatología II</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Diagnóstico y Evaluación Psicológica</td>
+        <td class="correlativas">Teoría y Técnica de Exploración</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Psicología Institucional</td>
+        <td class="correlativas">Psicología Social</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Psicología Educacional</td>
+        <td class="correlativas">Psicología del Desarrollo II</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+      <tr>
+        <td>Trabajo de Integración Final (TIF)</td>
+        <td class="correlativas">Todas las materias aprobadas</td>
+        <td class="final"><input type="text"/></td>
+        <td class="fecha"><input type="text"/></td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
